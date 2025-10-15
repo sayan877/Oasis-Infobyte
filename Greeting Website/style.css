@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+min-height: 100vh;
+border: 15px solid #1d1e4c;
+background-color: #e5e5fd;
+
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.imga ,img{
+    height: 300px;
+    width: 320px;
+}
+
+.main_body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+.imga{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main_body h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+.main_body h4{
+    text-align: end;
+    font-size: 20px;
+    color: red;
+}
+
+.mid{
+    top: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mid h2{
+    font-size: 40px;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.mid p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+
+.biography{
+    margin:50px 0;
+}
+
+.biography h4{
+    font-size: 30px;
+    color: brown;
+    letter-spacing: 6px;
+    text-decoration: wavy;
+    text-transform: capitalize;
+}
+
+.biography li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-weight: 300;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.biography ul{
+    margin-left:50px;
+
+}
+
+.biography li{
+    margin-bottom: 15px;
+}
+
+footer{
+    margin: 50px 0;
+
+}
+footer p{
+    text-align: end;
+}
